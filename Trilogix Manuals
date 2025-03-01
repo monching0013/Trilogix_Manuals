@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilogix Manuals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="trilogix_manuals_style.css">
+</head>
+<body>
+     <div class="about">
+                <h2 class="title2">Training & Certifications</h2>
+                <section>
+                    <fieldset>
+                        <legend class="work"><h3>Manuals</h3></legend>
+                        <div class="box">   
+                            <div class="text">
+                                <h4><a href="Trilogix Manuals/Timer And Counter.pdf">Timer And Counter</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="box">   
+                            <div class="text">
+                                <h4><a href="Trilogix Manuals/Final Assesment.pdf">Final Assesment</a></h4>
+                            </div>
+                        </div>
+                        <div class="box">   
+                            <div class="text">
+                                <h4><a href="Trilogix Manuals/Timer and Counter Programming.pdf">Timer and Counter Programming</a></h4>
+                            </div>
+                        </div>
+                        <div class="box">   
+                            <div class="text">
+                                <h4><a href="Trilogix Manuals/Trilogix Main Project Panel.docx">Trilogix Main Project Panel</a></h4>
+                            </div>
+                        </div>
+                    </fieldset>
+                </section>
+        </div>       
+<br>
