@@ -4,22 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>HVAC Manuals</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" type="text/css" href="hvac_style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left_side">
-            <div class="profileText">
-                <div class="imgBx">
-                    <img src="reymond.jpg">
-                </div>
-                <h2>Reymond Susi<br><span>Technical Support</span></h2>
-            </div>
-            
-            <div class="about">
+    <div class="about">
                 <h2 class="title2">HVAC</h2>
                 <section>
                     <fieldset>
@@ -42,6 +33,25 @@ Each unit is comprised of:
 
                                     The sequence of operation of the unit shall be as follows:
                                 </p>
+                               <h3>Supply Air Fan Control</h3>
+                               <p>
+                                    The Fresh Air Handling Unit with Heat Recovery Wheel are located in roof level of each block and supply fresh air to all the re-circulating AHU's in the respective towers (Block A, B, E & F).
+Each unit is comprised of:
+                                    i.    The FAHU Supply air fan shall be operated by the BMS when:<br>
+                                       a)The HOA switch of the supply fan is in "Auto" position.<br>
+                                       b)The supply fan trip signal is in NORMAL state..<br>
+                                    ii.    Once the above conditions are satisfied, FAHU is enabled to start in Auto mode (based on time schedule) or using a plant enable button on the graphics in manual mode by operator. Once enabled BMS will automatically command fresh air damper to "OPEN". <br>
+                                    111.   BMS will monitor the damper status. If the damper open status from damper end switch is not received within preset time delay of 120 sec after open command is issued then an alarm will be generated and latched on the BMS and FAHU enable command shall be disabled:.<br>
+                                    iv.    After confirmation of dampers open status, BMS will command supply fan to start. Once the start command is issued then BMS shall monitor the differential pressure airflow switch of the fan. If the airflow switch signal is proved "ON" then BMS will enable temperature control loop to modulate the cooling coil valve, dehumidification control loop, Supply fan speed control loop, Exhaust Air Fan control and Heat Recovery Wheel Control.<br>
+                                    v.     If the fan run status from the Differential pressure airflow switch is not proved 'On' within preset time delay of 120 seconds after the start command is being issued then an alarm . will be generated and latched on the BMS and the FAHU enable command shall be disabled. BMS will automatically command fresh air damper to close.<br>
+                                    vi     The controls shall be programmed to operate the AHU for continuous 24 Hours, 7 days a week time schedule in normal mode of operation. Only in case of Fire Alarm signal for respective zone, BMS will operate the FAHU as per the detailed sequence mentioned below in Fire & Smoke mode operation Thyristor Heater.<br>
+                                    vii.   The operator can stop the FAHU from the BMS anytime; however, the default state of the FAHU when the DOC is reset or powered up is START.<br>
+                                    viii.  When the FAHU is stopped or if the run status from the Differential pressure airflow switch is not proved 'ON' then the cooling valve will be closed i.e., 0% will be shown on the BMS.<br>
+                                    ix.    To do the supply fan - start /stop, the manual mode check box provided in the graphics should be checked and then the Start/Stop button should be selected to START or STOP option as required. Please note that while starting the FAHU supply fan in manual mode, first Fresh Damper should be command to open and its status is confirmed Open. Operator should uncheck the mode checkbox to run the system in Auto mode.<br>    
+
+                                    The sequence of operation of the unit shall be as follows:
+                                </p>
+                               
                             </div>
                         </div>
                         
